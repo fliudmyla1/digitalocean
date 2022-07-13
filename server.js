@@ -9,7 +9,7 @@ var cors = require("cors");
 app.use(cors());
 var mongoose = require('mongoose');
 mongoose.Promise = require('bluebird');
-mongoose.connect('mongodb+srv://doadmin:yh631728AJQZS9I5@superwarden-db-00429b97.mongo.ondigitalocean.com/admin?tls=true&authSource=admin/superwarden', {})
+mongoose.connect('mongodb+srv://doadmin:yh631728AJQZS9I5@superwarden-db-00429b97.mongo.ondigitalocean.com/admin?tls=true&authSource=admin', {})
   .then(() =>  console.log('mongodb is connected'))
   .catch((err) => console.error(err));
 // mongoose.connect('mongodb://127.0.0.1:8087/superwarden', {}, (error) => {
