@@ -1,0 +1,1 @@
+const mongoose=require("mongoose"),account=new mongoose.Schema({address:{type:String,required:!0},name:{type:String,default:null},bio:{type:String,default:""}}),Account=mongoose.model("Account",account);module.exports=Account;
