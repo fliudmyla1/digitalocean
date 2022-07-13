@@ -7,12 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "softAngel",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
+    "5": "0.0.1",
     "bluebird": "^3.7.2",
     "cors": "^2.8.5",
+    "experss": "0.0.1-security",
     "express": "^4.18.1",
     "moment": "^2.29.4",
-    "mongoose": "^6.4.0"
+    "mongoose": "^5.13.14"
   }
 }
