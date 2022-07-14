@@ -1,1 +1,0 @@
-import{_ as e,o as r,c as t}from"./vendor.395bafa6.js";const o={name:"index",data(){return{}},computed:{},created(){},mounted(){},methods:{}};function a(n,c,s,d,p,_){return r(),t("p",null,"404 error")}var u=e(o,[["render",a]]);export{u as default};
